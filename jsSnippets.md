@@ -113,3 +113,63 @@ Bitwise Operators
 << Left shift
 >> Right shift
 >>> Zero fill right shift
+
+
+Functions
+function name(parameter1, parameter2, parameter3) {
+// what the function does
+}
+Outputting Data
+alert()
+Output data in an alert box in the browser window
+confirm()
+Opens up a yes/no dialog and returns true/false depending on user click
+console.log()
+Writes information to the browser console, good for debugging purposes
+document.write()
+Write directly to the HTML document
+prompt()
+Creates an dialogue for user input
+Global Functions
+decodeURI()
+Decodes a Uniform Resource Identifier (URI) created by encodeURI or similar
+decodeURIComponent()
+Decodes a URI component
+encodeURI()
+Encodes a URI into UTF-8
+encodeURIComponent()
+Same but for URI components
+eval()
+Evaluates JavaScript code represented as a string
+isFinite()
+Determines whether a passed value is a finite number
+isNaN()
+Determines whether a value is NaN or not
+Number()
+Returns a number converted from its argument
+parseFloat()
+Parses an argument and returns a floating point number
+parseInt()
+Parses its argument and returns an integer
+
+
+Loops
+for (before loop; condition for loop; execute after loop) {
+// what to do during the loop
+}
+for
+The most common way to create a loop in Javascript
+while
+Sets up conditions under which a loop executes
+do while
+Similar to the while loop, however, it executes at least once and performs a check at the end to
+see if the condition is met to execute again
+break
+Used to stop and exit the cycle at certain conditions
+continue
+Skip parts of the cycle if certain conditions are met of 7 24
+If - Else Statements
+if (condition) {
+// what to do if condition is met
+} else {
+// what to do if condition is not met
