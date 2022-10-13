@@ -173,3 +173,50 @@ if (condition) {
 // what to do if condition is met
 } else {
 // what to do if condition is not met
+
+
+Strings
+var person = "John Doe";
+Escape Characters
+\' — Single quote
+\" — Double quote
+\\ — Backslash
+\b — Backspace
+\f — Form feed
+\n — New line
+\r — Carriage return
+\t — Horizontal tabulator
+\v — Vertical tabulator
+String Methods
+charAt()
+Returns a character at a specified position inside a string
+charCodeAt()
+Gives you the unicode of character at that position
+concat()
+Concatenates (joins) two or more strings into one
+fromCharCode()
+Returns a string created from the specified sequence of UTF-16 code units
+indexOf()
+Provides the position of the first occurrence of a specified text within a string
+lastIndexOf()
+Same as indexOf() but with the last occurrence, searching backwards
+match()
+Retrieves the matches of a string against a search pattern
+replace()
+Find and replace specific text in a string
+search()
+Executes a search for a matching text and returns its position
+slice()
+Extracts a section of a string and returns it as a new string
+split()
+Splits a string object into an array of strings at a specified position
+substr()
+Similar to slice() but extracts a substring depended on a specified number of characters
+substring()
+Also similar to slice() but can’t accept negative indices
+toLowerCase()
+Convert strings to lowercase
+toUpperCase()
+Convert strings to uppercase
+valueOf()
+Returns the primitive value (that has no properties or methods) of a string object
